@@ -1,0 +1,27 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/card-view.js": "components/card-view.js",
+    "components/post-form.js": "components/post-form.js",
+    "pages/CreatePost/index.js": "pages/CreatePost/index.js",
+    "pages/EditPost/index.js": "pages/EditPost/index.js",
+    "pages/Posts/_id/index.js": "pages/Posts/_id/index.js",
+    "pages/Posts/index.js": "pages/Posts/index.js",
+    "pages/Users/_id/index.js": "pages/Users/_id/index.js",
+    "pages/Users/index.js": "pages/Users/index.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/card-view.js": "components/card-view.js.map",
+    "components/post-form.js": "components/post-form.js.map",
+    "pages/CreatePost/index.js": "pages/CreatePost/index.js.map",
+    "pages/EditPost/index.js": "pages/EditPost/index.js.map",
+    "pages/Posts/_id/index.js": "pages/Posts/_id/index.js.map",
+    "pages/Posts/index.js": "pages/Posts/index.js.map",
+    "pages/Users/_id/index.js": "pages/Users/_id/index.js.map",
+    "pages/Users/index.js": "pages/Users/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

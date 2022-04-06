@@ -1,0 +1,51 @@
+[
+  {
+    "name": "CreatePost",
+    "path": "/CreatePost",
+    "component": "E:\\\\projectnuxt\\\\pages\\\\CreatePost\\\\index.vue",
+    "chunkName": "pages/CreatePost/index",
+    "_name": "_5efc430a"
+  },
+  {
+    "name": "EditPost",
+    "path": "/EditPost",
+    "component": "E:\\\\projectnuxt\\\\pages\\\\EditPost\\\\index.vue",
+    "chunkName": "pages/EditPost/index",
+    "_name": "_290762ed"
+  },
+  {
+    "name": "Posts",
+    "path": "/Posts",
+    "component": "E:\\\\projectnuxt\\\\pages\\\\Posts\\\\index.vue",
+    "chunkName": "pages/Posts/index",
+    "_name": "_36b6d84a"
+  },
+  {
+    "name": "Users",
+    "path": "/Users",
+    "component": "E:\\\\projectnuxt\\\\pages\\\\Users\\\\index.vue",
+    "chunkName": "pages/Users/index",
+    "_name": "_62527a16"
+  },
+  {
+    "name": "Posts-id",
+    "path": "/Posts/:id",
+    "component": "E:\\\\projectnuxt\\\\pages\\\\Posts\\\\_id\\\\index.vue",
+    "chunkName": "pages/Posts/_id/index",
+    "_name": "_be21d9e0"
+  },
+  {
+    "name": "Users-id",
+    "path": "/Users/:id",
+    "component": "E:\\\\projectnuxt\\\\pages\\\\Users\\\\_id\\\\index.vue",
+    "chunkName": "pages/Users/_id/index",
+    "_name": "_9403c976"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\projectnuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_8ba2ba52"
+  }
+]
