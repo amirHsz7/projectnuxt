@@ -22,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // '@/plugins/vue-swal',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -35,9 +36,14 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    '@nuxtjs/axios',
+    // 'nuxt-sweetalert2',
   ],
-
+  axios: {
+    // proxy: true
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    vendor: ['vue-swal']
   }
 }
