@@ -32,22 +32,22 @@
 
 <script>
 export default {
-props: {
-   buttonLoading: Boolean,
+  props: {
+    buttonLoading: Boolean,
     buttonText: String,
     post: Object,
-},
-data(){
-    return{
-        form : {
-            title: "",
-            titleErrorText: "",
-            body: "",
-            bodyErrorText: "",
-        }
-    }
-},
-methods:{
+  },
+  data() {
+    return {
+      form: {
+        title: "",
+        titleErrorText: "",
+        body: "",
+        bodyErrorText: "",
+      },
+    };
+  },
+  methods: {
     setInput() {
       if (this.$props.post !== undefined) {
         this.form.title = this.$props.post.title;
@@ -69,14 +69,12 @@ methods:{
       if (this.form.title !== "" && this.form.body !== "") {
         this.$emit("formData", this.form);
       }
-    }
-},
-created(){
-    this.setInput()
-}
-}
+    },
+  },
+  created() {
+    this.setInput();
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
